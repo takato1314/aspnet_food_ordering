@@ -4,68 +4,262 @@
 
 <html lang="en">
 <head runat="server">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title><%: Page.Title %> - My ASP.NET Application</title>
+    <title>MY McDonald's®</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
 
-    <webopt:bundlereference runat="server" path="~/Content/css" />
-    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+    <webopt:bundlereference runat="server" path="~/Content/css"/>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 
 </head>
 <body>
-    <form runat="server">
-        <asp:ScriptManager runat="server">
-            <Scripts>
-                <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
-                <%--Framework Scripts--%>
-                <asp:ScriptReference Name="MsAjaxBundle" />
-                <asp:ScriptReference Name="jquery" />
-                <asp:ScriptReference Name="bootstrap" />
-                <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js" />
-                <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js" />
-                <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js" />
-                <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js" />
-                <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js" />
-                <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js" />
-                <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js" />
-                <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js" />
-                <asp:ScriptReference Name="WebFormsBundle" />
-                <%--Site Scripts--%>
-            </Scripts>
-        </asp:ScriptManager>
+<form runat="server">
+    <asp:ScriptManager runat="server">
+        <Scripts>
+            <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
+            <%--Framework Scripts--%>
+            <asp:ScriptReference Name="MsAjaxBundle"/>
+            <asp:ScriptReference Name="jquery" Path="~/Scripts/jquery-3.2.1.min.js"/>
+            <asp:ScriptReference Name="bootstrap" Path="~/Scripts/bootstrap.min.js"/>
+            <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js"/>
+            <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js"/>
+            <asp:ScriptReference Name="MenuStandards.js" Assembly="System.Web" Path="~/Scripts/WebForms/MenuStandards.js"/>
+            <asp:ScriptReference Name="GridView.js" Assembly="System.Web" Path="~/Scripts/WebForms/GridView.js"/>
+            <asp:ScriptReference Name="DetailsView.js" Assembly="System.Web" Path="~/Scripts/WebForms/DetailsView.js"/>
+            <asp:ScriptReference Name="TreeView.js" Assembly="System.Web" Path="~/Scripts/WebForms/TreeView.js"/>
+            <asp:ScriptReference Name="WebParts.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebParts.js"/>
+            <asp:ScriptReference Name="Focus.js" Assembly="System.Web" Path="~/Scripts/WebForms/Focus.js"/>
+            <asp:ScriptReference Name="WebFormsBundle"/>
+            <%--Site Scripts--%>
+        </Scripts>
+    </asp:ScriptManager>
 
-        <div class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a class="navbar-brand" runat="server" href="~/">Application name</a>
+    <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><img src="images/logo_mcd.png"><span>McDonald's</span></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="oi oi-menu"></span> Menu
+            </button>
+
+            <div class="collapse navbar-collapse" id="ftco-nav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a runat="server" href="~/" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a runat="server" href="~/About" class="nav-link">About</a></li>
+                    <li class="nav-item"><a runat="server" href="~/Offer" class="nav-link">What's New</a></li>
+                    <li class="nav-item"><a runat="server" href="~/Menu" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a runat="server" href="~/Contact" class="nav-link">Contact</a></li>
+                    <li class="nav-item cta"><a runat="server" href="~/Login" class="nav-link">Login</a></li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <div class="body-content">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server">
+        </asp:ContentPlaceHolder>
+        <hr/>
+    </div>
+
+    <footer class="ftco-footer bg-bottom" style="background-image: url(images/footer-bg.jpg);">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">About</h2>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/about-us/our-values.html" class="py-2 d-block">
+                                    Our Values
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/about-us/our-business-model.html" class="py-2 d-block">
+                                    Our Business Model
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/about-us/our-growth-strategy.html" class="py-2 d-block">
+                                    Our Growth Strategy
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/about-us/diversity-and-inclusion.html" class="py-2 d-block">
+                                    Global Diversity, Inclusion &amp; Community Engagement
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/about-us/history.html" class="py-2 d-block">
+                                    History
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/about-us/diversity-and-inclusion.html" class="py-2 d-block">
+                                    Leadership
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/about-us/diversity-and-inclusion.html" class="py-2 d-block">
+                                    Around the World
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        <li><a runat="server" href="~/">Home</a></li>
-                        <li><a runat="server" href="~/About">About</a></li>
-                        <li><a runat="server" href="~/Contact">Contact</a></li>
-                    </ul>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4 ml-md-5">
+                        <h2 class="ftco-heading-2">Scale for Good</h2>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/scale-for-good/our-food.html" class="py-2 d-block">
+                                    Our Food
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/scale-for-good/our-planet.html" class="py-2 d-block">
+                                    Our Planet
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/scale-for-good/our-people-and-communities.html" class="py-2 d-block">
+                                    Our People &amp; Communities
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/scale-for-good/using-our-scale-for-good.html" class="py-2 d-block">
+                                    Our Approach
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/scale-for-good/esg-reporting.html" class="py-2 d-block">ESG Reporting</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Investors</h2>
+                        <ul class="list-unstyled">
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/investors-relations/company-profile.html" class="py-2 d-block">
+                                    Company Overview
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/investors-relations/financial-information.html" class="py-2 d-block">
+                                    Financial Information
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/investors-relations/investor-events.html" class="py-2 d-block">
+                                    Investor Events
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/investors-relations/stock-information.html" class="py-2 d-block">
+                                    Stock Information
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/investors-relations/shareholder-resources.html" class="py-2 d-block">
+                                    Stackholder Resources
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://corporate.mcdonalds.com/corpmcd/investors-relations/corporate-governance.html" class="py-2 d-block">
+                                    Corporate Governance
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="ftco-footer-widget mb-4">
+                        <h2 class="ftco-heading-2">Follow us</h2>
+                        <div class="block-23 mb-3">
+                            <ul>
+                                <li>
+                                    <a href="https://www.facebook.com/My.McDonalds/">
+                                        <span class="icon icon-facebook-f"></span><span class="text">Facebook</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/mcdonaldsmalaysia/">
+                                        <span class="icon icon-instagram"></span><span class="text">Instagram</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://twitter.com/McDMalaysia">
+                                        <span class="icon icon-twitter"></span><span class="text">Twitter</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/user/McDonaldsMalaysia">
+                                        <span class="icon icon-youtube"></span><span class="text">Youtube</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-center">
+
+                    <p>
+                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | AACS3023 Web Application Programming | <i class="icon-local_library" aria-hidden="true"></i> by <a href="#" target="_blank">Evelyn</a> &amp; <a href="#">Corsair Alex</a>
+                    </p>
                 </div>
             </div>
         </div>
-        <div class="container body-content">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
-            <hr />
-            <footer>
-                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
-            </footer>
-        </div>
+    </footer>
+</form>
 
-    </form>
+<!-- loader -->
+<div id="ftco-loader" class="show fullscreen">
+    <svg class="circular" width="48px" height="48px">
+        <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/>
+    </svg>
+</div>
+
+<script src="scripts/jquery.min.js"></script>
+<script src="scripts/jquery-migrate-3.0.1.min.js"></script>
+<script src="scripts/popper.min.js"></script>
+<script src="scripts/bootstrap.min.js"></script>
+<script src="scripts/jquery.easing.1.3.js"></script>
+<script src="scripts/jquery.waypoints.min.js"></script>
+<script src="scripts/jquery.stellar.min.js"></script>
+<script src="scripts/owl.carousel.min.js"></script>
+<script src="scripts/jquery.magnific-popup.min.js"></script>
+<script src="scripts/aos.js"></script>
+<script src="scripts/jquery.animateNumber.min.js"></script>
+<script src="scripts/bootstrap-datepicker.js"></script>
+<script src="scripts/scrollax.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="scripts/google-map.js"></script>
+<script src="scripts/main.js"></script>
 </body>
 </html>
