@@ -42,7 +42,7 @@
             <%--To learn more about bundling scripts in ScriptManager see https://go.microsoft.com/fwlink/?LinkID=301884 --%>
             <%--Framework Scripts--%>
             <asp:ScriptReference Name="MsAjaxBundle"/>
-            <asp:ScriptReference Name="jquery" Path="~/Scripts/jquery-3.2.1.min.js"/>
+            <asp:ScriptReference Name="jquery" Path="~/Scripts/jquery-3.4.1.min.js"/>
             <asp:ScriptReference Name="bootstrap" Path="~/Scripts/bootstrap.min.js"/>
             <asp:ScriptReference Name="WebForms.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebForms.js"/>
             <asp:ScriptReference Name="WebUIValidation.js" Assembly="System.Web" Path="~/Scripts/WebForms/WebUIValidation.js"/>
@@ -59,7 +59,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
         <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="images/logo_mcd.png"><span>McDonald's</span></a>
+            <a runat="server" href="~/" class="navbar-brand"><img src="images/logo_mcd.png"><span>McDonald's</span></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="oi oi-menu"></span> Menu
             </button>

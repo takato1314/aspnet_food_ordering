@@ -11,7 +11,7 @@ namespace Mcd.Client
         {
             if (!IsPostBack)
             {
-                using (var ctx = new McdContext())
+                using (var ctx = new McdClientContext())
                 {
                     var beverages = ctx.Beverages.ToList();
                     Gridview1.DataSource = beverages;

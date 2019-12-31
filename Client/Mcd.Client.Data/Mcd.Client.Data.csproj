@@ -52,8 +52,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dto\Beverage.cs" />
-    <Compile Include="McdDbConfiguration.cs" />
-    <Compile Include="McdContext.cs" />
+    <Compile Include="McdClientDbConfig.cs" />
+    <Compile Include="McdClientContext.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
