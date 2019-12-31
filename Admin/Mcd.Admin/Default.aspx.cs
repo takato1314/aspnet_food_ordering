@@ -1,9 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
+using Mcd.Admin.Data;
 
 namespace Mcd.Admin
 {
@@ -11,7 +9,15 @@ namespace Mcd.Admin
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                using (var ctx = new McdAdminContext())
+                {
+                    var employees = ctx.Employees.ToList();
+                    Gridview1.DataSource = employees;
+                    Gridview1.DataBind();
+                }
+            }
         }
     }
 }

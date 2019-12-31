@@ -515,6 +515,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\Admin\Mcd.Admin.Data\Mcd.Admin.Data.csproj">
+      <Project>{7609dec4-36fc-4561-a6f1-865ce5929c9b}</Project>
+      <Name>Mcd.Admin.Data</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Mcd.Client.Data\Mcd.Client.Data.csproj">
       <Project>{E2441650-EE0C-42CE-9E38-A8C0E515F624}</Project>
       <Name>Mcd.Client.Data</Name>

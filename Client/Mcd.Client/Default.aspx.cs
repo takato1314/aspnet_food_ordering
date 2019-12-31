@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using System.Web.UI;
+using Mcd.Admin.Data;
 using Mcd.Client.Data;
 
 namespace Mcd.Client
@@ -16,6 +17,13 @@ namespace Mcd.Client
                     var beverages = ctx.Beverages.ToList();
                     Gridview1.DataSource = beverages;
                     Gridview1.DataBind();
+                }
+
+                using (var ctx = new McdAdminContext())
+                {
+                    var employees = ctx.Employees.ToList();
+                    Gridview2.DataSource = employees;
+                    Gridview2.DataBind();
                 }
             }
         }

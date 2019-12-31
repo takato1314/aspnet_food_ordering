@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
     <link rel="stylesheet" href="css/style.css">
-    <webopt:bundlereference runat="server" path="~/Content/css"/>
+    <webopt:bundlereference runat="server" path="~/css/css"/>
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon"/>
 
 </head>
@@ -228,7 +228,6 @@
             </div>
             <div class="row">
                 <div class="col-md-12 text-center">
-
                     <p>
                         Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | AACS3023 Web Application Programming | <i class="icon-local_library" aria-hidden="true"></i> by <a href="#" target="_blank">Evelyn</a> &amp; <a href="#">Corsair Alex</a>
                     </p>
