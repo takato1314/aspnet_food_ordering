@@ -159,6 +159,12 @@
     <Content Include="content\multicheck\datatable-checkbox-init.js" />
     <Content Include="content\multicheck\jquery.multicheck.js" />
     <Content Include="content\multicheck\multicheck.css" />
+    <Content Include="content\popper.js\dist\esm\popper-utils.min.js" />
+    <Content Include="content\popper.js\dist\esm\popper.min.js" />
+    <Content Include="content\popper.js\dist\popper-utils.min.js" />
+    <Content Include="content\popper.js\dist\popper.min.js" />
+    <Content Include="content\popper.js\dist\umd\popper-utils.min.js" />
+    <Content Include="content\popper.js\dist\umd\popper.min.js" />
     <Content Include="content\sparkline\sparkline.js" />
     <Content Include="content\bootstrap\css\bootstrap-grid.css" />
     <Content Include="content\bootstrap\css\bootstrap-grid.min.css" />
@@ -941,10 +947,6 @@
     <Content Include="content\perfect-scrollbar\dist\perfect-scrollbar.esm.js" />
     <Content Include="content\perfect-scrollbar\dist\perfect-scrollbar.jquery.min.js" />
     <Content Include="content\perfect-scrollbar\dist\perfect-scrollbar.min.js" />
-    <Content Include="content\popper.js\popper-utils.js" />
-    <Content Include="content\popper.js\popper-utils.min.js" />
-    <Content Include="content\popper.js\popper.js" />
-    <Content Include="content\popper.js\popper.min.js" />
     <Content Include="content\quill\dist\quill.bubble.css" />
     <Content Include="content\quill\dist\quill.core.css" />
     <Content Include="content\quill\dist\quill.core.js" />
@@ -1208,15 +1210,15 @@
     <Folder Include="App_Data\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="content\popper.js\dist\index.js.flow" />
+    <Content Include="content\popper.js\dist\popper-utils.js.map" />
+    <Content Include="content\popper.js\dist\popper-utils.min.js.map" />
+    <Content Include="content\popper.js\dist\popper.js.map" />
+    <Content Include="content\popper.js\dist\popper.min.js.map" />
+    <Content Include="content\popper.js\dist\README.md" />
     <None Include="packages.config" />
     <Content Include="content\jquery\jquery-3.4.1.min.map" />
     <Content Include="content\jquery\jquery-3.4.1.slim.min.map" />
-    <Content Include="content\popper.js\index.js.flow" />
-    <Content Include="content\popper.js\popper-utils.js.map" />
-    <Content Include="content\popper.js\popper-utils.min.js.map" />
-    <Content Include="content\popper.js\popper.js.map" />
-    <Content Include="content\popper.js\popper.min.js.map" />
-    <Content Include="content\popper.js\README.md" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -1234,7 +1236,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="content\popper.js\index.d.ts" />
+    <TypeScriptCompile Include="content\popper.js\dist\index.d.ts" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
