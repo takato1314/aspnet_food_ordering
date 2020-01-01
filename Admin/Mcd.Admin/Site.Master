@@ -12,14 +12,22 @@
     <title><%: Page.Title %> - MY Admin McDonald's®</title>
 
     <asp:PlaceHolder runat="server">
-        <%: Scripts.Render("~/bundles/WebFormsJs") %>
-        <%: Scripts.Render("~/bundles/MsAjaxJs") %>
+        <%--<%: Scripts.Render("~/bundles/WebFormsJs") %>
+        <%: Scripts.Render("~/bundles/MsAjaxJs") %>--%>
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
 
     <webopt:bundlereference runat="server" path="~/content/css" />
+    <link href="content/flot/css/float-chart.css" rel="stylesheet">
+    <link href="content/style.css" rel="stylesheet">
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
     <form runat="server">
