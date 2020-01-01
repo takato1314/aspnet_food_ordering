@@ -1121,7 +1121,6 @@
     <Content Include="images\big\img5.jpg" />
     <Content Include="images\big\img6.jpg" />
     <Content Include="images\custom-select.png" />
-    <Content Include="images\favicon.ico" />
     <Content Include="images\logo-icon.png" />
     <Content Include="images\logo.png" />
     <Content Include="images\users\1-old.jpg" />

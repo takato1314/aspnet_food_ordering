@@ -4424,7 +4424,7 @@ input[type='submit'].btn-block {
   line-height: 1.5;
   color: #4f5467;
   vertical-align: middle;
-  background: #fff url(../../assets/images/custom-select.png) no-repeat right
+  background: #fff url(../../images/custom-select.png) no-repeat right
     0.75rem center;
   background-size: 8px 10px;
   border: 1px solid #e9ecef;
@@ -10697,7 +10697,7 @@ html[dir='ltr'] body .p-l-0 {
   background: #eeeeee;
   position: relative;
   margin-left: 250px;
-  margin-top: 1rem;
+  margin-top: 5rem;
 }
 
 .page-wrapper > .container-fluid {
@@ -15680,7 +15680,7 @@ label {
 .error-box {
   height: 100%;
   position: fixed;
-  background: url(../../../../assets/images/background/error-bg.jpg) no-repeat
+  background: url(../../../../images/background/error-bg.jpg) no-repeat
     center center #fff;
   width: 100%;
 }
