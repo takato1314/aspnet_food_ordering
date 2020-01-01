@@ -138,7 +138,6 @@
     <Content Include="css\open-iconic-bootstrap.min.css" />
     <Content Include="css\owl.carousel.min.css" />
     <Content Include="css\owl.theme.default.min.css" />
-    <Content Include="css\Site.css" />
     <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
