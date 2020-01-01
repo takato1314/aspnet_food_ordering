@@ -8,26 +8,26 @@ namespace Mcd.Admin
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/WebFormsJs").Include(
-                            "~/content/WebForms/WebForms.js",
-                            "~/content/WebForms/WebUIValidation.js",
-                            "~/content/WebForms/MenuStandards.js",
-                            "~/content/WebForms/Focus.js",
-                            "~/content/WebForms/GridView.js",
-                            "~/content/WebForms/DetailsView.js",
-                            "~/content/WebForms/TreeView.js",
-                            "~/content/WebForms/WebParts.js"));
+                            "~/Scripts/WebForms/WebForms.js",
+                            "~/Scripts/WebForms/WebUIValidation.js",
+                            "~/Scripts/WebForms/MenuStandards.js",
+                            "~/Scripts/WebForms/Focus.js",
+                            "~/Scripts/WebForms/GridView.js",
+                            "~/Scripts/WebForms/DetailsView.js",
+                            "~/Scripts/WebForms/TreeView.js",
+                            "~/Scripts/WebForms/WebParts.js"));
 
             // Order is very important for these files to work, they have explicit dependencies
             bundles.Add(new ScriptBundle("~/bundles/MsAjaxJs").Include(
-                    "~/content/WebForms/MsAjax/MicrosoftAjax.js",
-                    "~/content/WebForms/MsAjax/MicrosoftAjaxApplicationServices.js",
-                    "~/content/WebForms/MsAjax/MicrosoftAjaxTimer.js",
-                    "~/content/WebForms/MsAjax/MicrosoftAjaxWebForms.js"));
+                    "~/Scripts/WebForms/MsAjax/MicrosoftAjax.js",
+                    "~/Scripts/WebForms/MsAjax/MicrosoftAjaxApplicationServices.js",
+                    "~/Scripts/WebForms/MsAjax/MicrosoftAjaxTimer.js",
+                    "~/Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js"));
 
             // Use the Development version of Modernizr to develop with and learn from. Then, when you’re
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                            "~/content/modernizr-*"));
+                            "~/content/modernizr/js/modernizr-*"));
         }
     }
 }
