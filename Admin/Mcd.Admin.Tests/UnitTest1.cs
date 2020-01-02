@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace Mcd.Admin.Tests
 {
@@ -9,6 +8,7 @@ namespace Mcd.Admin.Tests
         [TestMethod]
         public void TestMethod1()
         {
+            Assert.IsNotNull(new UnitTest1());
         }
     }
 }

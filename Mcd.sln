@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29521.150
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mcd.Client", "Client\Mcd.Client\Mcd.Client.csproj", "{0CF8A46F-5B94-4B13-8050-630F4B853662}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mcd.Client.Tests", "Client\Mcd.Client.Tests\Mcd.Client.Tests.csproj", "{1E4EE149-8E20-4A44-8FCC-DB17585D6F73}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mcd.Client.Tests", "Client\Mcd.Client.Tests\Mcd.Client.Tests.csproj", "{1E4EE149-8E20-4A44-8FCC-DB17585D6F73}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mcd.Client.Data", "Client\Mcd.Client.Data\Mcd.Client.Data.csproj", "{E2441650-EE0C-42CE-9E38-A8C0E515F624}"
 EndProject
@@ -13,11 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Client", "Client", "{C9FC7F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Admin", "Admin", "{1AAA2923-FE71-4693-8C4E-215B5EEF5455}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mcd.Admin.Data", "Admin\Mcd.Admin.Data\Mcd.Admin.Data.csproj", "{7609DEC4-36FC-4561-A6F1-865CE5929C9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mcd.Admin.Data", "Admin\Mcd.Admin.Data\Mcd.Admin.Data.csproj", "{7609DEC4-36FC-4561-A6F1-865CE5929C9B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mcd.Admin", "Admin\Mcd.Admin\Mcd.Admin.csproj", "{D6B0ED10-D346-488C-9707-E35EE54C0428}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mcd.Admin.Tests", "Admin\Mcd.Admin.Tests\Mcd.Admin.Tests.csproj", "{CD3B67CF-F56C-4459-A36F-229F76862ECB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mcd.Admin.Tests", "Admin\Mcd.Admin.Tests\Mcd.Admin.Tests.csproj", "{CD3B67CF-F56C-4459-A36F-229F76862ECB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

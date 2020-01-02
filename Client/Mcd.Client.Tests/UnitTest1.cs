@@ -8,6 +8,7 @@ namespace Mcd.Client.Tests
         [TestMethod]
         public void TestMethod1()
         {
+            Assert.IsNotNull(new UnitTest1());
         }
     }
 }
