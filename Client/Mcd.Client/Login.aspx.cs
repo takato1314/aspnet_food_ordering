@@ -1,10 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Security.Claims;
 using System.Web;
-using System.Web.Security;
-using Microsoft.Owin.Security;
-using Microsoft.Owin.Security.Cookies;
+using System.Web.UI;
+using Microsoft.AspNet.Identity.Owin;
 
 namespace Mcd.Client
 {
@@ -17,37 +14,36 @@ namespace Mcd.Client
 
         protected void LoginButton_OnClick(object sender, EventArgs e)
         {
-            //if (Membership.ValidateUser(UserName.Text, Password.Text))
+            //if (IsValid)
             //{
-            //    // get user info
-            //    var user = Membership.GetUser(UserName.Text);
+            //    // Validate the user password
+            //    var manager = Context.GetOwinContext().GetUserManager<ApplicationUserManager>();
+            //    var signinManager = Context.GetOwinContext().GetUserManager<ApplicationSignInManager>();
 
-            //    // build a list of claims
-            //    var claims = new List<Claim>();
-            //    claims.Add(new Claim(ClaimTypes.Name, user.UserName));
-            //    claims.Add(new Claim(ClaimTypes.NameIdentifier, user.ProviderUserKey.ToString()));
-            //    if (Roles.Enabled)
+            //    // This doen't count login failures towards account lockout
+            //    // To enable password failures to trigger lockout, change to shouldLockout: true
+            //    var result = signinManager.PasswordSignIn(Email.Text, Password.Text, RememberMe.Checked, shouldLockout: false);
+
+            //    switch (result)
             //    {
-            //        foreach (var role in Roles.GetRolesForUser(user.UserName))
-            //        {
-            //            claims.Add(new Claim(ClaimTypes.Role, role));
-            //        }
+            //        case SignInStatus.Success:
+            //            IdentityHelper.RedirectToReturnUrl(Request.QueryString["ReturnUrl"], Response);
+            //            break;
+            //        case SignInStatus.LockedOut:
+            //            Response.Redirect("/Account/Lockout");
+            //            break;
+            //        case SignInStatus.RequiresVerification:
+            //            Response.Redirect(String.Format("/Account/TwoFactorAuthenticationSignIn?ReturnUrl={0}&RememberMe={1}",
+            //                    Request.QueryString["ReturnUrl"],
+            //                    RememberMe.Checked),
+            //                true);
+            //            break;
+            //        case SignInStatus.Failure:
+            //        default:
+            //            FailureText.Text = "Invalid login attempt";
+            //            ErrorMessage.Visible = true;
+            //            break;
             //    }
-
-            //    // create the identity
-            //    var identity = new ClaimsIdentity(claims, CookieAuthenticationDefaults.AuthenticationType);
-
-            //    Context.GetOwinContext().Authentication.SignIn(new AuthenticationProperties()
-            //        {
-            //            IsPersistent = RememberMe.Checked
-            //        },
-            //        identity);
-
-            //    Response.Redirect("~/");
-            //}
-            //else
-            //{
-            //    FailureText.Text = "The credentials are not valid!";
             //}
         }
     }
