@@ -1,0 +1,6 @@
+﻿.Question {
+    font-weight: bold;
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
