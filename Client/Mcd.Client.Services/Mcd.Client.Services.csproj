@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>Mcd.Client.Services</AssemblyName>
+    <RootNamespace>Mcd.Client.Services</RootNamespace>
+  </PropertyGroup>
+
+</Project>
