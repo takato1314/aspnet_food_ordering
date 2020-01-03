@@ -332,6 +332,23 @@ AOS.init({
     ==================================================================*/
     var input = $('.validate-input .input100');
 
+    $('#login100-goto-login').on('click', function () {
+        //$('.login100-login, .login100-registration').toggle(300);
+        $('.login100-registration').fadeOut(300);
+        $('.login100-login').delay(400).fadeIn(300);
+    });
+
+    $('#login100-goto-register').on('click', function () {
+        //$('.login100-registration, .login100-login').toggle(300);
+        $('.login100-login').fadeOut(300);
+        $('.login100-registration').delay(400).fadeIn(300);
+    });
+
+
+    function wtf() {
+        console.log('done');
+    }
+
     $('.validate-form').on('submit',
         function() {
             var check = true;
@@ -345,7 +362,6 @@ AOS.init({
 
             return check;
         });
-
 
     $('.validate-form .input100').each(function() {
         $(this).focus(function() {

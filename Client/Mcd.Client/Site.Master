@@ -21,12 +21,14 @@
     <link rel="stylesheet" type="text/css" href="content/select2/select2.min.css">
     <link rel="stylesheet" href="content/owl/css/owl.carousel.min.css">
     <link rel="stylesheet" href="content/owl/css/owl.theme.default.min.css">
-    <link rel="stylesheet" href="content/jquery-magnific-popup/css/magnific-popup.css">
     <link rel="stylesheet" href="content/aos/css/aos.css">
     <link rel="stylesheet" href="content/ionicons/css/ionicons.min.css">
     <link rel="stylesheet" type="text/css" href="content/daterangepicker/daterangepicker.css">
     <link rel="stylesheet" href="content/bootstrap-datepicker/css/bootstrap-datepicker.css">
     <link rel="stylesheet" href="content/jquery.timepicker/css/jquery.timepicker.css">
+    <link rel="stylesheet" href="content/jquery-magnific-popup/css/magnific-popup.css">
+    <link rel="stylesheet" href="content/jquery-ui/jquery-ui.structure.css">
+    <link rel="stylesheet" href="content/jquery-ui/jquery-ui.theme.css">
     <link rel="stylesheet" href="content/flaticon/css/flaticon.css">
     <link rel="stylesheet" href="content/icomoon/css/icomoon.css">
     <link rel="stylesheet" href="content/style.css">
@@ -82,7 +84,6 @@
     <div class="body-content">
         <asp:ContentPlaceHolder ID="MainContent" runat="server">
         </asp:ContentPlaceHolder>
-        <hr/>
     </div>
 
     <footer class="ftco-footer bg-bottom" style="background-image: url(images/footer-bg.jpg);">
@@ -247,6 +248,7 @@
 
 <%--scripts--%>
 <script src="content/jquery/js/jquery-3.4.1.min.js"></script>
+<script src="content/jquery-ui/jquery-ui.min.js"></script>
 <script src="content/jquery-migrate/jquery-migrate-3.0.1.min.js"></script>
 <script src="content/animsition/js/animsition.min.js"></script>
 <script src="content/popper.js/dist/popper.min.js"></script>

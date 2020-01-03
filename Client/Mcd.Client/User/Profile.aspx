@@ -5,7 +5,7 @@
         <div class="temporary"></div>
     </header>
 
-    <section class="ftco-section services-section bg-light">
+    <section class="ftco-section bg-light">
         <div class="container">
             <h1>Secure Page, logged in as <%= User.Identity.Name %></h1>
             <ul>
