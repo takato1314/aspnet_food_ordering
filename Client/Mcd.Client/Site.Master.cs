@@ -7,7 +7,6 @@ namespace Mcd.Client
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
         }
     }
 }

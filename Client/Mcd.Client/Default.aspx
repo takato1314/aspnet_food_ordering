@@ -236,4 +236,24 @@
     <asp:GridView ID="Gridview2" runat="server">
     </asp:GridView>
 
+<script src="./Content/jquery/js/jquery-3.4.1.min.js"></script>
+<script src="./Content/jquery-ui/jquery-ui.min.js"></script>
+<script src="./Content/jquery-migrate/jquery-migrate-3.0.1.min.js"></script>
+<script src="./Content/animsition/js/animsition.min.js"></script>
+<script src="./Content/popper.js/dist/popper.min.js"></script>
+<script src="./Content/bootstrap/js/bootstrap.min.js"></script>
+<script src="./Content/select2/select2.min.js"></script>
+<script src="./Content/jquery.easing/jquery.easing.1.3.js"></script>
+<script src="./Content/jquery.waypoints/jquery.waypoints.min.js"></script>
+<script src="./Content/jquery-stellar/jquery.stellar.min.js"></script>
+<script src="./Content/owl/js/owl.carousel.min.js"></script>
+<script src="./Content/jquery-magnific-popup/js/jquery.magnific-popup.min.js"></script>
+<script src="./Content/aos/js/aos.js"></script>
+<script src="./Content/jquery.animateNumber/jquery.animateNumber.min.js"></script>
+<script src="./Content/daterangepicker/moment.min.js"></script>
+<script src="./Content/daterangepicker/daterangepicker.js"></script>
+<script src="./Content/bootstrap-datepicker/js/bootstrap-datepicker.js"></script>
+<script src="./Content/scrollax/js/scrollax.min.js"></script>
+<script src="./Content/main.js"></script>
+
 </asp:Content>

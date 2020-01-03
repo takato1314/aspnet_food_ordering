@@ -1,4 +1,5 @@
 ﻿using System.Web.Optimization;
+using System.Web.UI;
 
 namespace Mcd.Client
 {
@@ -24,10 +25,22 @@ namespace Mcd.Client
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjaxTimer.js",
                     "~/Scripts/WebForms/MsAjax/MicrosoftAjaxWebForms.js"));
 
+            // TODO: Add custom bundle
+            // https://www.tutorialsteacher.com/mvc/scriptbundle-mvc
+            //bundles.Add(new ScriptBundle("~/bundles/jQueryUiJs").Include(
+            //    "~/Content/jquery/js/jquery-3.4.1.min.js",
+            //    "~/Content/jquery-migrate/jquery-migrate-3.0.1.min.js",
+            //    "~/Content/jquery.easing/jquery.easing.1.3.js",
+            //    "~/Content/jquery.waypoints/jquery.waypoints.min.js",
+            //    "~/Content/jquery-stellar/jquery.stellar.min.js",
+            //    "~/Content/jquery-magnific-popup/js/jquery.magnific-popup.min.js",
+            //    "~/Content/jquery.animateNumber/jquery.animateNumber.min.js"));
+
             // Use the Development version of Modernizr to develop with and learn from. Then, when you’re
             // ready for production, use the build tool at https://modernizr.com to pick only the tests you need
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                            "~/content/modernizr/js/modernizr-*"));
+                            "~/Content/modernizr/js/modernizr-*"));
+
         }
     }
 }
