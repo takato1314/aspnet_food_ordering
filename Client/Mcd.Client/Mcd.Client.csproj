@@ -177,6 +177,10 @@
     <Content Include="Contact.aspx" />
     <Content Include="content\ajax-loader.gif" />
     <Content Include="content\animate\css\animate.css" />
+    <Content Include="content\animsition\css\animsition.css" />
+    <Content Include="content\animsition\css\animsition.min.css" />
+    <Content Include="content\animsition\js\animsition.js" />
+    <Content Include="content\animsition\js\animsition.min.js" />
     <Content Include="content\aos\css\aos.css" />
     <Content Include="content\aos\js\aos.js" />
     <Content Include="content\bootstrap-datepicker\css\bootstrap-datepicker.css" />
@@ -192,11 +196,19 @@
     <Content Include="content\bootstrap\js\bootstrap.bundle.min.js" />
     <Content Include="content\bootstrap\js\bootstrap.js" />
     <Content Include="content\bootstrap\js\bootstrap.min.js" />
+    <Content Include="content\daterangepicker\daterangepicker.css" />
+    <Content Include="content\daterangepicker\daterangepicker.js" />
+    <Content Include="content\daterangepicker\moment.js" />
+    <Content Include="content\daterangepicker\moment.min.js" />
     <Content Include="content\flaticon\css\flaticon.css" />
     <Content Include="content\flaticon\fonts\flaticon\backup.txt" />
     <Content Include="content\flaticon\fonts\flaticon\font\flaticon.css" />
     <Content Include="content\flaticon\fonts\flaticon\font\flaticon.html" />
     <Content Include="content\flaticon\fonts\flaticon\font\Flaticon.svg" />
+    <Content Include="content\font-awesome\css\font-awesome.css" />
+    <Content Include="content\font-awesome\css\font-awesome.min.css" />
+    <Content Include="content\font-awesome\fonts\fontawesome-webfont.svg" />
+    <Content Include="content\font-awesome\HELP-US-OUT.txt" />
     <Content Include="content\google\js\google-map.js" />
     <Content Include="content\icomoon\css\icomoon.css" />
     <Content Include="content\icomoon\fonts\icomoon\icomoon.svg" />
@@ -225,6 +237,39 @@
     <Content Include="content\ionicons\fonts\ionicons.ttf" />
     <Content Include="content\ionicons\fonts\ionicons.woff" />
     <Content Include="content\ionicons\fonts\ionicons.woff2" />
+    <Content Include="content\font-awesome\fonts\fontawesome-webfont.eot" />
+    <Content Include="content\font-awesome\fonts\fontawesome-webfont.ttf" />
+    <Content Include="content\font-awesome\fonts\fontawesome-webfont.woff" />
+    <Content Include="content\font-awesome\fonts\fontawesome-webfont.woff2" />
+    <Content Include="content\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="content\font-awesome\less\animated.less" />
+    <Content Include="content\font-awesome\less\bordered-pulled.less" />
+    <Content Include="content\font-awesome\less\core.less" />
+    <Content Include="content\font-awesome\less\fixed-width.less" />
+    <Content Include="content\font-awesome\less\font-awesome.less" />
+    <Content Include="content\font-awesome\less\icons.less" />
+    <Content Include="content\font-awesome\less\larger.less" />
+    <Content Include="content\font-awesome\less\list.less" />
+    <Content Include="content\font-awesome\less\mixins.less" />
+    <Content Include="content\font-awesome\less\path.less" />
+    <Content Include="content\font-awesome\less\rotated-flipped.less" />
+    <Content Include="content\font-awesome\less\screen-reader.less" />
+    <Content Include="content\font-awesome\less\stacked.less" />
+    <Content Include="content\font-awesome\less\variables.less" />
+    <Content Include="content\font-awesome\scss\font-awesome.scss" />
+    <Content Include="content\font-awesome\scss\_animated.scss" />
+    <Content Include="content\font-awesome\scss\_bordered-pulled.scss" />
+    <Content Include="content\font-awesome\scss\_core.scss" />
+    <Content Include="content\font-awesome\scss\_fixed-width.scss" />
+    <Content Include="content\font-awesome\scss\_icons.scss" />
+    <Content Include="content\font-awesome\scss\_larger.scss" />
+    <Content Include="content\font-awesome\scss\_list.scss" />
+    <Content Include="content\font-awesome\scss\_mixins.scss" />
+    <Content Include="content\font-awesome\scss\_path.scss" />
+    <Content Include="content\font-awesome\scss\_rotated-flipped.scss" />
+    <Content Include="content\font-awesome\scss\_screen-reader.scss" />
+    <Content Include="content\font-awesome\scss\_stacked.scss" />
+    <Content Include="content\font-awesome\scss\_variables.scss" />
     <None Include="content\jquery\js\jquery-3.4.1.intellisense.js" />
     <Content Include="content\jquery\js\jquery-3.4.1.js" />
     <Content Include="content\jquery\js\jquery-3.4.1.min.js" />
@@ -232,6 +277,9 @@
     <Content Include="content\jquery\js\jquery-3.4.1.slim.min.js" />
     <Content Include="content\jquery\js\jquery-ui.min.js" />
     <Content Include="content\jquery\js\jquery.ui.touch-punch-improved.js" />
+    <Content Include="content\Linearicons\icon-font.min.css" />
+    <Content Include="content\Linearicons\WebFont\Linearicons-Free.svg" />
+    <Content Include="content\login.css" />
     <Content Include="content\main.js" />
     <Content Include="content\modernizr\js\modernizr-2.8.3.js" />
     <Content Include="content\open-iconic\css\open-iconic-bootstrap.min.css" />
@@ -239,6 +287,8 @@
     <Content Include="content\owl\css\owl.carousel.min.css" />
     <Content Include="content\owl\css\owl.theme.default.min.css" />
     <Content Include="content\owl\js\owl.carousel.min.js" />
+    <Content Include="content\perfect-scrollbar\perfect-scrollbar.css" />
+    <Content Include="content\perfect-scrollbar\perfect-scrollbar.min.js" />
     <Content Include="content\popper.js\dist\esm\popper-utils.min.js" />
     <Content Include="content\popper.js\dist\esm\popper.min.js" />
     <Content Include="content\popper.js\dist\popper-utils.js" />
@@ -249,6 +299,10 @@
     <Content Include="content\popper.js\dist\umd\popper.min.js" />
     <Content Include="content\range.js" />
     <Content Include="content\scrollax\js\scrollax.min.js" />
+    <Content Include="content\select2\select2.css" />
+    <Content Include="content\select2\select2.js" />
+    <Content Include="content\select2\select2.min.css" />
+    <Content Include="content\select2\select2.min.js" />
     <Content Include="content\src\index.js" />
     <Content Include="content\src\methods\defaults.js" />
     <Content Include="content\src\methods\destroy.js" />
@@ -313,6 +367,7 @@
     <Content Include="content\src\utils\setStyles.js" />
     <Content Include="content\src\utils\setupEventListeners.js" />
     <Content Include="content\style.css" />
+    <Content Include="content\util.css" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
@@ -355,6 +410,7 @@
     <Content Include="images\place-2.jpg" />
     <Content Include="images\place-3.jpg" />
     <Content Include="images\place-4.jpg" />
+    <Content Include="Login.aspx" />
     <Content Include="Logout.aspx" />
     <Content Include="Scripts\WebForms\DetailsView.js" />
     <Content Include="Scripts\WebForms\Focus.js" />
@@ -378,6 +434,7 @@
     <Content Include="Scripts\WebForms\WebParts.js" />
     <Content Include="Scripts\WebForms\WebUIValidation.js" />
     <Content Include="Site.Master" />
+    <Content Include="User\Profile.aspx" />
     <Content Include="videos\mcd1.mp4" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -411,6 +468,13 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Logout.aspx.cs">
       <DependentUpon>Logout.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -433,6 +497,13 @@
       <DependentUpon>Site.Mobile.Master</DependentUpon>
     </Compile>
     <Compile Include="Startup.cs" />
+    <Compile Include="User\Profile.aspx.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="User\Profile.aspx.designer.cs">
+      <DependentUpon>Profile.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ViewSwitcher.ascx.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -556,7 +627,12 @@
     <Content Include="content\open-iconic\fonts\open-iconic\open-iconic.otf" />
     <Content Include="content\open-iconic\fonts\open-iconic\open-iconic.ttf" />
     <Content Include="content\open-iconic\fonts\open-iconic\open-iconic.woff" />
+    <Content Include="content\Linearicons\WebFont\Linearicons-Free.eot" />
+    <Content Include="content\Linearicons\WebFont\Linearicons-Free.ttf" />
+    <Content Include="content\Linearicons\WebFont\Linearicons-Free.woff" />
+    <Content Include="content\Linearicons\WebFont\Linearicons-Free.woff2" />
     <None Include="packages.config" />
+    <Content Include="User\Web.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

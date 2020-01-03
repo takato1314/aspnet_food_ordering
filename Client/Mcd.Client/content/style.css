@@ -11038,3 +11038,8 @@ textarea.form-control { height: inherit !important; }
         stroke-dashoffset: -136px;
     }
 }
+
+.temporary {
+    background: #555555;
+    height: 7rem;
+}
