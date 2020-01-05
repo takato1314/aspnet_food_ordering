@@ -58,8 +58,8 @@ namespace Mcd.Client.Auth
 
             // Uncomment the following lines to enable logging in with third party login providers
             app.UseFacebookAuthentication(
-               "599694220843222",
-               "bdcbc306ac7cb93f272e35a288a3cc71");
+               "",
+               "");
 
             app.UseInstagramInAuthentication(
                 "", 
